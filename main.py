@@ -37,5 +37,4 @@ cgp = 'Ground Shipping Premium', cost_ground_premium
 cd = 'Drone shipping', cost_drone
 
 minimum_price = (min(cg, cgp, cd))
-minimum_price2 = minimum_price
-print("\nCheapest way of Shipping is", minimum_price2)
+print("\nCheapest way of Shipping is", minimum_price)
