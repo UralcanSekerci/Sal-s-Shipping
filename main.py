@@ -32,9 +32,9 @@ else:
     cost_drone = 14.25 * weight
 print("Drone shipping Costs: ", cost_drone, "Dollars")
 
-cg = 'Ground Shipping', cost_ground
-cgp = 'Ground Shipping Premium', cost_ground_premium
-cd = 'Drone shipping', cost_drone
+cg = cost_ground, 'Ground Shipping',
+cgp = cost_ground_premium, 'Ground Shipping Premium'
+cd = cost_drone, 'Drone shipping'
 
 minimum_price = (min(cg, cgp, cd))
 print("\nCheapest way of Shipping is", minimum_price)
